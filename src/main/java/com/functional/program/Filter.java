@@ -1,5 +1,9 @@
 package com.functional.program;
 
-public class Filter {
+import java.util.List;
 
+public class Filter {
+    public static int checkListLength(List<Integer> list){
+        return list.size();
+    }
 }
